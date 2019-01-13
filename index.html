@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Basal Metabolic Rate</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="main">
+  <h1>Basal Metabolic Rate Calculator</h1>
+  <form>
+    <p class='noDisplayRadio color'>Please select your gender!</p>
+    <label>Male</label><input type="radio" value="male" name="gender">
+    <label>Female</label><input type="radio" value="female" name="gender">
+    <br>
+    <br>
+    <p class="noDisplayHeight color">Please enter your height!</p>
+    <label>Height (in cm)</label><br><input class="box" id="height" type="number" placeholder="177">
+    <br>
+    <br>
+    <p class="noDisplayWeight color">Please enter your weight!</p>
+    <label>Weight (in kg)</label><br><input class="box" id="weight" type="number" placeholder="79">
+    <br>
+    <br>
+    <p class="noDisplayAge color">Please enter your age!</p>
+    <label>Age</label><br><input id="age" class="box" type="number" placeholder="21">
+    <br>
+    <br>
+    <button type='button' class="hoverBtn">Submit</button>
+    <br>
+    <hr>
+    <p class='bmr1'>Your BMR is the amount of calories you burn in one day if you were to lay in bed and not do anything.</p>
+    <p class='bmr1'>Your BMR is:</p>
+    <p class='bmr'></p><p class='inline'> Calories</p>
+    <p class='bmr1'>Aim for 500 calories under your BMR and you should lose more than one pound a week.</p>  
+  </form>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
